@@ -1,0 +1,25 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+dist/
+
+# never ever commit these
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.db
+*.sqlite
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# vault local config
+~/.smart-env-vault/
